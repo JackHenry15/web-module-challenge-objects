@@ -14,9 +14,10 @@ The function should:
   
   Example createMenuItem('tacos', 8, 'Lunch') should return {name: 'tacos', price: 8, category: 'Lunch'}
 */
-
-function createMenuItem(/*Your code here*/){
-    /*Your code here*/
+const taco = {name:'taco', price: 8, category:'lunch'}
+function createMenuItem(name, price, category){
+    
+    return taco;
 }
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 1b: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
@@ -29,6 +30,13 @@ Test your createMenuItems function by doing the following:
   For example: createMenuItem("pizza",5,"lunch") would return this as the object: {name:"Pizza",price:5,category:"lunch"}
 */
 
+const pizza = {name:'pizza', price: 5, category:'Lunch'}
+const pasta = {name:'pasta', price: 10, category:'Dinner'}
+const eggs = {name:'eggs', price: 3, category:'Breakfast'}
+
+console.log(createMenuItem(pizza));
+console.log(createMenuItem(pasta));
+console.log(createMenuItem(eggs));
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
@@ -48,9 +56,21 @@ export const burger = {
   name: "Burger", 
   price: 18, 
   category: "Lunch", 
+  discount: function(string){
+    if(string = 'teacher'){
+      // price 13.5;
+    return (13.5);
+    } else if(string === 'public'){
+      // price = 16.2;
+      return (16.2);
+    }else{
+      return burger.price;
+    }
+  }
   /*Your code here*/
 }
 
+burger.discount('teacher');
 
 
 ///////////////Reviews (MVP)///////////////////
@@ -121,8 +141,10 @@ Use the getLastReview function below to do the following:
 */
 
 
-function getLastReview(/*Your code here*/) {
+function getLastReview(array) {
   /*Your code here*/
+
+
 } 
 
 
