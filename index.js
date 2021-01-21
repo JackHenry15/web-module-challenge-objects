@@ -89,6 +89,7 @@ const reviews = [
 Using the reviews array above:
   1. log only Julius' feedback to the console - no function needed 
 */
+console.log(reviews[5]);
 
 
 
@@ -100,6 +101,9 @@ Using the reviews array above do the following: (no function needed)
 */
 
 
+reviews.push('Jeff', 5, "this was soooo good wowwwwww");
+console.log(reviews);
+
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Reyna's feedback is missing! Use what you know to do the following: (no function needed) 
@@ -108,6 +112,7 @@ Reyna's feedback is missing! Use what you know to do the following: (no function
 */
 
 
+console.log(reviews);
 
 
 
